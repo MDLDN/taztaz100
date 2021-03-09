@@ -11,11 +11,6 @@
           <h3 class="center">
             THE TAZTAZ LTD
           </h3>
-          <p class="center">
-            <strong>
-              Company Number 13096443 England and Wales
-            </strong>
-          </p>
           <p>
             Nature of business (SIC) <br />
             49390 - Other passenger land transport
@@ -23,8 +18,7 @@
             49420 - Removal services<br />
           </p>
           <p class="center">
-            THE TAZTAZ LTD, is a Private limited Company Incorporated on 22
-            December 2020 !
+            THE TAZTAZ LTD.
           </p>
           <p>
             Hello Everyone, We are hoping all of you are doing great in this
