@@ -17,7 +17,9 @@
             </div>
             <div class="column">
               <figure>
-                <p>The TazTaz</p>
+                <p class="logoname">
+                  The TazTaz
+                </p>
               </figure>
               <div>
                 <p>71-75 Shelton Street</p>
@@ -152,5 +154,13 @@ footer {
 }
 h3 a {
   color: white;
+}
+.logoname {
+  font-family: eagle;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  font-variant-caps: all-small-caps;
+  line-height: 50px;
 }
 </style>
