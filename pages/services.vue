@@ -137,7 +137,9 @@ export default {
   background-color: black;
   color: yellow;
 }
-.tile,
+.tile {
+  background-color: yellow;
+}
 .box {
   background-color: black;
 }
