@@ -17,7 +17,7 @@
             </div>
             <div class="column">
               <figure>
-                <img class="logo" :src="`/Eliza-Logo-BFA02F---.png`" />
+                <p>The TazTaz</p>
               </figure>
               <div>
                 <p>71-75 Shelton Street</p>
