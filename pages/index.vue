@@ -13,9 +13,6 @@
     </site-hero>
     <section class="hero is-medium is-link">
       <div class="hero-body">
-        <p class="title center">
-          Servicing London and Environs!
-        </p>
         <p class="subtitle center">
           AT YOUR CONVINIENCE
         </p>
