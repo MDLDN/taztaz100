@@ -10,10 +10,8 @@
                   <p>
                     Opening Hours
                   </p>
-                  <p>Mon - Fri</p>
-                  <p>09.00-12.00 & 14.30-16.30</p>
-                  <p>Sat & Sun</p>
-                  <p>Closed</p>
+                  <p>24 Hours!</p>
+                  <p>On Demand!</p>
                 </div>
               </h3>
             </div>
@@ -22,13 +20,14 @@
                 <img class="logo" :src="`/Eliza-Logo-BFA02F---.png`" />
               </figure>
               <div>
-                <p>7 Gatliff Road</p>
+                <p>71-75 Shelton Street</p>
+                <p>Covent Garden</p>
                 <p>London</p>
-                <p>SW1W 8DF</p>
-                <p>United Kingdom</p>
-                <p>Tel: 07960 686 509</p>
-                <p>Fax: xxx xxxx xxxx</p>
-                <p>Email: contact@elizaimportexport.com</p>
+                <p>WC2H 9JQ</p>
+                <p>England</p>
+                <p>Tel: 0784 025 7052</p>
+                <p>Social Media: @taztaz_official</p>
+                <p>Email: contact@thetaztaz.com</p>
               </div>
             </div>
             <div class="column">
@@ -77,9 +76,9 @@
         <div class="columns">
           <div class="column">
             <small>
-              {{ $siteConfig.siteName }} Import Export LTD Company Number
-              11049817 England and Wales &copy; {{ new Date().getFullYear() }} -
-              All Rights Reserved
+              The {{ $siteConfig.siteName }} LTD Company Number 11049817 England
+              and Wales &copy; {{ new Date().getFullYear() }} - All Rights
+              Reserved
               <br />
               <figure>
                 <img class="ftflag" :src="`/Eliza-Logo-BFA02F---.png`" />

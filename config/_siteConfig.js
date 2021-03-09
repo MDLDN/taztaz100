@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'TazTaz',
-  tagline: 'Transport Services',
+  tagline: 'Services',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -18,6 +18,14 @@ export default {
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
+    {
+      name: 'Services',
+      link: '/services'
+    },
+    {
+      name: 'Products',
+      link: '/products'
+    },
     {
       name: 'About',
       link: '/about'
@@ -27,7 +35,7 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
+      name: 'Blog',
       link: '/categories'
     }
   ],

@@ -1,107 +1,188 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
-    <main-section theme="sidebar-right">
+    <main-section width="contained" theme="one-column">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
-          <p>
+          <h5 class="button is-small">
+            About Us
+          </h5>
+          <h3 class="center">
+            THE TAZTAZ LTD
+          </h3>
+          <p class="center">
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              Company Number 13096443 England and Wales
             </strong>
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Nature of business (SIC) <br />
+            49390 - Other passenger land transport
+            <br />
+            49420 - Removal services<br />
           </p>
-
-          <h3>Another Fake Heading</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+          <p class="center">
+            THE TAZTAZ LTD, is a Private limited Company Incorporated on 22
+            December 2020 !
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            Hello Everyone, We are hoping all of you are doing great in this
+            unprecedented period. First of all we would like to make a promise
+            to Our Customers that we will do our best to solve any kind of
+            request in the best possible way. We are a proactive and productive
+            business that only aim to fulfil Our Customer’s demands. We will
+            always try to answer every call or message as soon as possible. If
+            we do not answer, please leave a voice or written message. And we
+            will get back to you as fast as we can. Because communication is the
+            key role to success for every businesses. We will act with integrity
+            and transparency at all times. Our portfolio strength creates
+            product quality in all the segments of Customer’s budget bringing
+            out uniformity in our operations to build up and be reliable at all
+            times. We would like to be part of your lives in the most
+            professional way possible, by designing a personalised service
+            according to your needs and timings. We are the Win-Win Service that
+            priorities Our Customer’s necessities amongst everything else and
+            best overall customer satisfaction. A friendly approach that leaves
+            its mark forever. A remarkable and unique Service. Kind regards The
+            Director
           </p>
         </div>
 
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
+              <p class="title center">
+                Chuffering
               </p>
-              <p class="subtitle">
-                Sooo Cool
+              <opti-image
+                class="center"
+                width="500"
+                height="500"
+                :src="require('~/assets/uploads/taztaz-chuffer.jpg').src"
+                :srcset="require('~/assets/uploads/taztaz-chuffer.jpg').srcSet"
+              />
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title center">
+                Airport Transfers
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  class="center"
+                  width="500"
+                  height="500"
+                  :src="
+                    require('~/assets/uploads/taztaz-airport-transfers.jpg').src
+                  "
+                  :srcset="
+                    require('~/assets/uploads/taztaz-airport-transfers.jpg')
+                      .srcSet
+                  "
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
+              <p class="title center">
+                Removals
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  class="center"
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/taztaz-removals.jpg').src"
+                  :srcset="
+                    require('~/assets/uploads/taztaz-removals.jpg').srcSet
+                  "
+                />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title center">
+                Storage
+              </p>
+              <figure class="image is-1by1">
+                <opti-image
+                  class="center"
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/taztaz-storage.jpg').src"
+                  :srcset="
+                    require('~/assets/uploads/taztaz-storage.jpg').srcSet
+                  "
+                />
               </figure>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
+              <p class="title center">
+                Furniture
               </p>
               <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
+                <opti-image
+                  class="center"
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/taztaz-furniture.jpg').src"
+                  :srcset="
+                    require('~/assets/uploads/taztaz-furniture.jpg').srcSet
+                  "
+                />
+              </figure>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title center">
+                Accountant
+              </p>
+              <figure class="image is-1by1">
+                <opti-image
+                  class="center"
+                  width="500"
+                  height="500"
+                  :src="require('~/assets/uploads/taztaz-accountant.jpg').src"
+                  :srcset="
+                    require('~/assets/uploads/taztaz-accountant.jpg').srcSet
+                  "
+                />
               </figure>
             </article>
           </div>
         </div>
       </template>
-
-      <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
-      </template>
     </main-section>
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
   },
-  components: { QuoteCard }
+  'carousel-demo': {
+    slidesToScroll: 1,
+    slidesToShow: 4
+  },
+  components: {}
 }
 </script>
+
+><style scoped>
+.button {
+  background-color: black;
+  color: yellow;
+}
+.tile {
+  background-color: yellow;
+}
+</style>
