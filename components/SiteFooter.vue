@@ -28,8 +28,14 @@
                 <p>WC2H 9JQ</p>
                 <p>England</p>
                 <a href="tel:078-402-57052">078 402 57052 </a>
-                <p>Social Media: @taztaz_official</p>
-                <p>Email: contact@thetaztaz.com</p>
+                <p>
+                  <a href="mailto:info@thetaztaz.com">
+                    info@thetaztaz.com
+                  </a>
+                </p>
+                <p class="sociallogo">
+                  @taztaz_official
+                </p>
               </div>
             </div>
             <div class="column">
@@ -38,34 +44,31 @@
                   <news-letter-form />
                 </div>
                 <div class="container socialicons">
-                  <b-icon
-                    icon="twitter"
-                    size="is-medium"
-                    custom-size="fa-2x"
-                    type="primary"
-                  ></b-icon>
-                  <b-icon
-                    icon="facebook"
-                    size="is-medium"
-                    custom-size="fa-2x"
-                    type="primary"
-                  ></b-icon>
-                  <b-icon
-                    icon="instagram"
-                    size="is-medium"
-                    custom-size="fa-2x"
-                    type="primary"
-                  ></b-icon>
-                  <b-icon
-                    icon="youtube"
-                    size="is-medium"
-                    custom-size="fa-2x"
-                  ></b-icon>
-                  <b-icon
-                    icon="whatsapp"
-                    size="is-medium"
-                    custom-size="fa-2x"
-                  ></b-icon>
+                  <a href="https://twitter.com/">
+                    <b-icon
+                      icon="twitter"
+                      custom-size="fa-lg"
+                      type="primary"
+                    ></b-icon>
+                  </a>
+                  <a href="https://instagram.com/">
+                    <b-icon
+                      icon="instagram"
+                      custom-size="fa-lg"
+                      type="primary"
+                    ></b-icon>
+                  </a>
+                  <a href="https://www.youtube.com/">
+                    <b-icon icon="youtube" custom-size="fa-lg"></b-icon>
+                  </a>
+                  <a href="https://www.facebook.com//">
+                    <b-icon
+                      icon="facebook"
+                      size="is-medium"
+                      custom-size="fa-lg"
+                      type="primary"
+                    ></b-icon>
+                  </a>
                 </div>
               </div>
             </div>
@@ -162,5 +165,9 @@ h3 a {
   font-size: x-large;
   font-variant-caps: all-small-caps;
   line-height: 50px;
+}
+.sociallogo {
+  font-family: eagle;
+  font-weight: bold;
 }
 </style>

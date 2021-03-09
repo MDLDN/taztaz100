@@ -8,7 +8,7 @@
     >
       <div class="field has-addons is-fullwidth tel">
         <p class="control">
-          0784 025 7052
+          <a href="tel:078-402-57052">078 402 57052 </a>
         </p>
       </div>
     </form>
