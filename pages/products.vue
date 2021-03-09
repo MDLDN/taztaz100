@@ -6,6 +6,7 @@
           <h5 class="button red is-small">
             Products
           </h5>
+          <p>Coming Soon</p>
         </div>
       </template>
     </main-section>
