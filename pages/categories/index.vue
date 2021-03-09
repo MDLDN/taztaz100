@@ -1,6 +1,10 @@
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
-    <site-hero title="Categories" image="https://picsum.photos/1800/1801" />
+    <div class="content">
+      <h5 class="button red is-small">
+        Products
+      </h5>
+    </div>
     <main-section theme="one-column">
       <categories-grid />
     </main-section>

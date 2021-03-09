@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Blog',
-      link: '/categories'
+      link: '/blog'
     }
   ],
   hero: {
