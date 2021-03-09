@@ -76,9 +76,8 @@
         <div class="columns">
           <div class="column">
             <small>
-              The {{ $siteConfig.siteName }} LTD Company Number 11049817 England
-              and Wales &copy; {{ new Date().getFullYear() }} - All Rights
-              Reserved
+              {{ $siteConfig.siteName }} LTD Company Number 11049817 England and
+              Wales &copy; {{ new Date().getFullYear() }} - All Rights Reserved
               <br />
               <figure>
                 <p>The TazTaz</p>
