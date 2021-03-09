@@ -17,3 +17,9 @@ export default {
   components: {}
 }
 </script>
+
+<style scoped>
+.products-page {
+  background-color: yellow;
+}
+</style>
