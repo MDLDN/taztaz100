@@ -6,13 +6,10 @@
   >
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
-        <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-        <img
-          v-else
-          :src="$siteConfig.logo"
-          :alt="$siteConfig.siteName"
-          class="logo"
-        />
+        <site-logo />
+        <div>
+          <p>The TazTaz</p>
+        </div>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
