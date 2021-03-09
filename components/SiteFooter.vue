@@ -81,7 +81,7 @@
               Reserved
               <br />
               <figure>
-                <img class="ftflag" :src="`/Eliza-Logo-BFA02F---.png`" />
+                <p>The TazTaz</p>
               </figure>
             </small>
           </div>

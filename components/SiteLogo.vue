@@ -1,7 +1,7 @@
 <template>
   <div class="logo-wrapper">
     <div class="logo-inner">
-      <p>TazTaz</p>
+      <p>The TazTaz</p>
     </div>
   </div>
 </template>
