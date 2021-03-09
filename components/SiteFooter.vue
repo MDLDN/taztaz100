@@ -33,15 +33,12 @@
                     info@thetaztaz.com
                   </a>
                 </p>
-                <p class="sociallogo">
-                  @taztaz_official
-                </p>
               </div>
             </div>
             <div class="column">
               <div class="notification has-background-black">
                 <div class="container center">
-                  <news-letter-form />
+                  <strong class="center">@TazTazOfficial</strong>
                 </div>
                 <div class="container socialicons">
                   <a href="https://twitter.com/taztazofficial?s=09">
@@ -100,12 +97,9 @@
 </template>
 
 <script>
-import NewsLetterForm from '~/components/NewsLetterForm'
 export default {
   name: 'SiteFooter',
-  components: {
-    NewsLetterForm
-  }
+  components: {}
 }
 </script>
 
