@@ -124,32 +124,12 @@
   </div>
 </template>
 <script>
-import { setPageData } from '../helper'
 export default {
   head() {
     return {
       title: `Services | ${this.$siteConfig.siteName}`
     }
-  },
-  data() {
-    return { stories: [], docs: [] }
-  },
-  fetch({ store, params }) {
-    setPageData(store, { slug: 'products' })
-  },
-  // eslint-disable-next-line no-dupe-keys
-  async fetch() {
-    try {
-      const query = await this.$prismic.api.query(
-        this.$prismic.predicates.at('document.type', 'product'),
-        { orderings: '[my.product.position]' }
-      )
-      this.docs = query.results
-    } catch (e) {
-      console.log(e)
-    }
-  },
-  fetchDelay: 500
+  }
 }
 </script>
 <style scoped>
@@ -157,10 +137,17 @@ export default {
   background-color: black;
   color: yellow;
 }
-.tile {
-  background-color: yellow;
+.tile,
+.box {
+  background-color: black;
 }
 .services-page {
-  background-color: black;
+  background-color: yellow;
+}
+.title {
+  color: whitesmoke;
+  font-weight: 800;
+  font-family: eagle;
+  font-variant-caps: all-small-caps;
 }
 </style>

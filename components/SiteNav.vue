@@ -76,7 +76,7 @@ export default {
 .navbar-menu a {
   display: block;
   color: yellow;
-  font-weight: 600;
+  font-weight: 800;
   font-family: eagle;
   font-variant-caps: all-small-caps;
 }

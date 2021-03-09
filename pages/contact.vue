@@ -46,7 +46,7 @@
               <div class="content">
                 <p class="center">
                   <strong>
-                    Chuaffeuring
+                    Chauffeuring
                   </strong>
                 </p>
                 <b-icon
@@ -92,16 +92,6 @@
                   size="is-medium"
                   custom-size="fa-2x"
                 ></b-icon>
-                <b-icon
-                  icon="whatsapp"
-                  size="is-medium"
-                  custom-size="fa-2x"
-                ></b-icon>
-                <b-icon
-                  icon="email"
-                  size="is-medium"
-                  custom-size="fa-2x"
-                ></b-icon>
                 <p class="center">
                   <strong>
                     Storage
@@ -113,16 +103,6 @@
                   custom-size="fa-2x"
                 ></b-icon>
                 <br />
-                <b-icon
-                  icon="email"
-                  size="is-medium"
-                  custom-size="fa-2x"
-                ></b-icon>
-                <b-icon
-                  icon="whatsapp"
-                  size="is-medium"
-                  custom-size="fa-2x"
-                ></b-icon>
                 <b-icon
                   icon="email"
                   size="is-medium"
