@@ -17,8 +17,8 @@
                 class="center"
                 width="500"
                 height="500"
-                :src="require('~/assets/uploads/taztaz-chuffer.jpg').src"
-                :srcset="require('~/assets/uploads/taztaz-chuffer.jpg').srcSet"
+                :src="require('~/assets/uploads/taztaz-chuffer.jpeg').src"
+                :srcset="require('~/assets/uploads/taztaz-chuffer.jpeg').srcSet"
               />
             </article>
           </div>
@@ -33,10 +33,11 @@
                   width="500"
                   height="500"
                   :src="
-                    require('~/assets/uploads/taztaz-airport-transfers.jpg').src
+                    require('~/assets/uploads/taztaz-airport-transfers.jpeg')
+                      .src
                   "
                   :srcset="
-                    require('~/assets/uploads/taztaz-airport-transfers.jpg')
+                    require('~/assets/uploads/taztaz-airport-transfers.jpeg')
                       .srcSet
                   "
                 />
@@ -53,9 +54,9 @@
                   class="center"
                   width="500"
                   height="500"
-                  :src="require('~/assets/uploads/taztaz-removals.jpg').src"
+                  :src="require('~/assets/uploads/taztaz-removals.jpeg').src"
                   :srcset="
-                    require('~/assets/uploads/taztaz-removals.jpg').srcSet
+                    require('~/assets/uploads/taztaz-removals.jpeg').srcSet
                   "
                 />
               </figure>
@@ -73,9 +74,9 @@
                   class="center"
                   width="500"
                   height="500"
-                  :src="require('~/assets/uploads/taztaz-storage.jpg').src"
+                  :src="require('~/assets/uploads/taztaz-storage.jpeg').src"
                   :srcset="
-                    require('~/assets/uploads/taztaz-storage.jpg').srcSet
+                    require('~/assets/uploads/taztaz-storage.jpeg').srcSet
                   "
                 />
               </figure>
@@ -91,9 +92,9 @@
                   class="center"
                   width="500"
                   height="500"
-                  :src="require('~/assets/uploads/taztaz-furniture.jpg').src"
+                  :src="require('~/assets/uploads/taztaz-furniture.jpeg').src"
                   :srcset="
-                    require('~/assets/uploads/taztaz-furniture.jpg').srcSet
+                    require('~/assets/uploads/taztaz-furniture.jpeg').srcSet
                   "
                 />
               </figure>
@@ -109,9 +110,9 @@
                   class="center"
                   width="500"
                   height="500"
-                  :src="require('~/assets/uploads/taztaz-accountant.jpg').src"
+                  :src="require('~/assets/uploads/taztaz-accountant.jpeg').src"
                   :srcset="
-                    require('~/assets/uploads/taztaz-accountant.jpg').srcSet
+                    require('~/assets/uploads/taztaz-accountant.jpeg').srcSet
                   "
                 />
               </figure>
