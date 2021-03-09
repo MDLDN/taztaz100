@@ -44,14 +44,16 @@
                   <news-letter-form />
                 </div>
                 <div class="container socialicons">
-                  <a href="https://twitter.com/">
+                  <a href="https://twitter.com/taztazofficial?s=09">
                     <b-icon
                       icon="twitter"
                       custom-size="fa-lg"
                       type="primary"
                     ></b-icon>
                   </a>
-                  <a href="https://instagram.com/">
+                  <a
+                    href="https://www.instagram.com/thetaztaz.official/?igshid=86aszlprhdvz"
+                  >
                     <b-icon
                       icon="instagram"
                       custom-size="fa-lg"
@@ -61,7 +63,9 @@
                   <a href="https://www.youtube.com/">
                     <b-icon icon="youtube" custom-size="fa-lg"></b-icon>
                   </a>
-                  <a href="https://www.facebook.com//">
+                  <a
+                    href="https://www.facebook.com/The-TazTaz-100885788680106/"
+                  >
                     <b-icon
                       icon="facebook"
                       size="is-medium"

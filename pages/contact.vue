@@ -148,8 +148,13 @@
                   custom-size="fa-2x"
                 ></b-icon>
                 <p>
+                  <strong class="center">General Enquires</strong>
                   <br />
-                  <strong class="center">contact@thetaztaz.com</strong>
+                  <strong class="center">
+                    <a href="mailto:info@thetaztaz.com">
+                      info@thetaztaz.com
+                    </a>
+                  </strong>
                   <br />
                   <strong class="center">facebook.com/@taztaz_official</strong>
                   <br />
