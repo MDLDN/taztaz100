@@ -45,4 +45,7 @@ export default {
   background-color: black;
   color: yellow;
 }
+.products-page {
+  background-color: yellow;
+}
 </style>

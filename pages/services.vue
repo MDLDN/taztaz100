@@ -159,4 +159,7 @@ export default {
 .tile {
   background-color: yellow;
 }
+.services-page {
+  background-color: yellow;
+}
 </style>

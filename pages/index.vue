@@ -13,6 +13,15 @@
     </site-hero>
     <section class="hero is-medium is-link">
       <div class="hero-body">
+        <div class="center">
+          <button
+            v-if="$siteConfig.newsletter.on"
+            class="button is-black center"
+            @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+          >
+            Call Us
+          </button>
+        </div>
         <p class="subtitle center">
           AT YOUR CONVINIENCE
         </p>
@@ -83,7 +92,7 @@ export default {
 }
 button {
   background-color: black;
-  color: black;
+  color: yellow;
 }
 .call {
   color: yellow;

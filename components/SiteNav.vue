@@ -85,4 +85,7 @@ export default {
   background-color: yellow;
   border-bottom: yellow;
 }
+nav {
+  background-color: yellow;
+}
 </style>

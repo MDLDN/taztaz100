@@ -79,4 +79,7 @@ export default {
 h3 {
   color: yellow;
 }
+.about-page {
+  background-color: yellow;
+}
 </style>
