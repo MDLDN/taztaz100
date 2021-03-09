@@ -11,7 +11,7 @@
         </p>
       </button>
     </site-hero>
-    <section class="hero is-medium is-link">
+    <section class="hero is-medium">
       <div class="hero-body">
         <div class="center">
           <button
@@ -22,6 +22,7 @@
             Call Us
           </button>
         </div>
+        <br />
         <p class="subtitle center">
           AT YOUR CONVINIENCE
         </p>

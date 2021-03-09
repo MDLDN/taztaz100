@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar has-shadow is-fixed-top"
+    class="navbar is-fixed-top"
     role="navigation"
     aria-label="main navigation"
   >
@@ -75,11 +75,13 @@ export default {
 
 .navbar-menu a {
   display: block;
-  color: black;
+  color: yellow;
   font-weight: 600;
+  font-family: eagle;
+  font-variant-caps: all-small-caps;
 }
 .navbar-menu {
-  background-color: $warning;
+  background-color: black;
 }
 .navbar {
   background-color: yellow;
