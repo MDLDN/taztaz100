@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-page" class="page-wrapper contact-page content-page">
+  <div id="blog-page" class="page-wrapper blog-page content-page">
     <main-section theme="one-column">
       <template v-slot:default>
         <posts-grid />
@@ -11,7 +11,7 @@
 export default {
   head() {
     return {
-      title: `Contact | ${this.$siteConfig.siteName}`
+      title: `Blog | ${this.$siteConfig.siteName}`
     }
   },
   components: {}
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.products-page {
+.blog-page {
   background-color: yellow;
 }
 </style>

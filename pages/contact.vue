@@ -40,15 +40,126 @@
           <div class="tile is-parent is-8">
             <article class="tile is-child box">
               <p class="title center">
-                Have your say!
+                Services Contacts!
               </p>
               <br />
               <div class="content">
                 <p class="center">
                   <strong>
-                    For Comments, Suggestions and Complaints
+                    Chuaffeuring
                   </strong>
                 </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <p class="center">
+                  <strong>
+                    Airport Transfers
+                  </strong>
+                </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <p class="center">
+                  <strong>
+                    Removals
+                  </strong>
+                </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <p class="center">
+                  <strong>
+                    Storage
+                  </strong>
+                </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <p class="center">
+                  <strong>
+                    Furniture
+                  </strong>
+                </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <p class="center">
+                  <strong>
+                    Accountant
+                  </strong>
+                </p>
+                <b-icon
+                  icon="whatsapp"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
+                <br />
+                <b-icon
+                  icon="email"
+                  size="is-medium"
+                  custom-size="fa-2x"
+                ></b-icon>
                 <p>
                   <br />
                   <strong class="center">contact@thetaztaz.com</strong>

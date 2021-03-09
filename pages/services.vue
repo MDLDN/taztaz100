@@ -161,6 +161,6 @@ export default {
   background-color: yellow;
 }
 .services-page {
-  background-color: yellow;
+  background-color: black;
 }
 </style>
