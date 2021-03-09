@@ -15,8 +15,7 @@
       <div class="hero-body">
         <div class="center">
           <button>
-            Call Us
-            <a href="tel:07840257052"> </a>
+            <a href="tel:078-402-57052">Call Us </a>
           </button>
         </div>
         <br />
