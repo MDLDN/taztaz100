@@ -23,7 +23,7 @@
               <div class="content">
                 <p>
                   <strong>
-                    Tasmir A. Director of Operations
+                    Tasbir A. Director of Operations
                   </strong>
                 </p>
                 <p>
@@ -33,6 +33,13 @@
                   Because communication is the key role to success for every
                   businesses. We will act with integrity and transparency at all
                   times.
+                  <br />
+                  <br />
+                  Looking forward to hearing from you.
+                  <br />
+                  Yours Sincerely, Tasbir
+                  <br />
+                  A., Director of Operations.
                 </p>
               </div>
             </article>
@@ -40,7 +47,7 @@
           <div class="tile is-parent is-8">
             <article class="tile is-child box">
               <p class="title center">
-                Services Contacts!
+                Services Contacts
               </p>
               <br />
               <div class="content">
@@ -148,9 +155,6 @@
                   <br />
                   <strong class="center">twitter.com/@taztaz_official</strong>
                   <br />
-                  Looking forward to hearing from you. <br />
-                  Yours Faithfuly, <br />
-                  Tasmir A., Director of Operations.
                 </p>
               </div>
             </article>

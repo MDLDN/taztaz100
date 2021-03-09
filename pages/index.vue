@@ -14,12 +14,9 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="center">
-          <button
-            v-if="$siteConfig.newsletter.on"
-            class="button is-black center"
-            @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
-          >
+          <button>
             Call Us
+            <a href="tel:07840257052"> </a>
           </button>
         </div>
         <br />
