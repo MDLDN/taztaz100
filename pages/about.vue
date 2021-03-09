@@ -2,10 +2,12 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <main-section width="contained" theme="one-column">
       <template v-slot:default>
-        <div class="content">
-          <h5 class="button is-small">
-            About Us
-          </h5>
+        <h5 class="button is-small">
+          About
+        </h5>
+        <br />
+        <br />
+        <div class="content notification">
           <h3 class="center">
             THE TAZTAZ LTD
           </h3>
@@ -70,7 +72,11 @@ export default {
   background-color: black;
   color: yellow;
 }
-.tile {
-  background-color: yellow;
+.content {
+  background-color: black;
+  color: yellow;
+}
+h3 {
+  color: yellow;
 }
 </style>
