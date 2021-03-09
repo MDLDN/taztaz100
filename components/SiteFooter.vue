@@ -27,7 +27,7 @@
                 <p>London</p>
                 <p>WC2H 9JQ</p>
                 <p>England</p>
-                <p>Tel: 0784 025 7052</p>
+                <a href="tel:078-402-57052">078 402 57052 </a>
                 <p>Social Media: @taztaz_official</p>
                 <p>Email: contact@thetaztaz.com</p>
               </div>
